@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "postinstall": "npm install -g json-server",
-    "start": "json-server --watch db.json --port 4000"
+    "start": "json-server --watch db.json --port 4000 --static false"
   },
   "dependencies": {
     "json-server": "^0.17.0"
