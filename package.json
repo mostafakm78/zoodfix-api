@@ -2,7 +2,7 @@
     "name": "json-server-api",
     "version": "1.0.0",
     "scripts": {
-      "start": "json-server --watch db.json --port 4000"
+      "start": "npx json-server --watch db.json --port 4000"
     },
     "dependencies": {
       "json-server": "^0.17.0"
